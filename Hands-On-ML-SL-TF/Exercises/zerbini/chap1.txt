@@ -1,0 +1,23 @@
+1. Machine Learning is a program that can learn and predict based on his knowledge acquired by previous data.
+2. Types:
+    1. Blacklist/whitelist problems, to decrease hard coded evolution entries
+    2. An environment that needs to be fast adapted to 
+    3. Getting info from large datasets
+    4. Problems that can’t be solved through common techniques (like if/else)
+3. A labeled dataset is a dataset where you have the output you are looking for, as for example, spam emails, the label would be spam or not spam
+4. Regression and Classification
+5. Visualisation, Clustering, Association and Dimensionality Reduction
+6. Unsupervised learning ( Reinforcement Learning )
+7. Clustering if you don’t how the groups behave. Classification if you know how the groups behave
+8. Supervised
+9.  Learning incrementally (on the fly), by feeding small groups of data sequentially (mini-batches)
+10. Out-of-core learning happens when you have a lot of data and you can’t process all at once, so you do it in mini-batches and feed to the online learning
+11. Instance Learning
+12. The hyperparameter controls the amount of regularisation to apply during learning.  A model parameter controls the parameters that best fit the training data set
+13. Model based learning search for a mathematical formula that best fit the training dataset. To improve the model we usually keep training and testing our dataset until we achieve a lower cost function. We use the formula to predict the outcome.
+14. Insufficient data, non representative data, poor-quality data and irrelevant features
+15. Overfitting. More data, simplifying model, reduce noise (change hyperparemeter?)
+16. The test set is used to test the model for data different than we used to train, it’s mandatory to use to see if your model is achieving a good generalisation 
+17. To test between models with different hyperparemeters and models.
+18. You can overfit the hyperparmeters by testing on the same dataset
+19. Cross-validation is splitting the training set into complementary subsets, and each model is trained in a combination of these subsets and validated against the remaining . It’s preferable to avoid overfitting hyperparemeters without the need to separate the validation set
