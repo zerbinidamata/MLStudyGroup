@@ -1,0 +1,68 @@
+1 - 	Machine learning is the process of programming a machine to learn from some data
+	to make some task and validate it's process in such way that as new data comes
+	the perfomance on the task gets improved.
+
+2 - 	Predict the prices of house based historical data.
+	Identify person's faces and recognize them.
+	Identify animals and recognize which animal it is.
+	Predict stock's market valuation.
+
+3 -	A labeled training dataset is one that for each input you already know or input the data you want to predict or identify.
+
+4 -	Classification and Regression
+
+5 -	Clustering, Anomaly detection and novelty detection
+	Visualization and Dimensionality Reduction
+	Association Rule Learning
+
+6 -	Semi-supervised Learning
+
+7 -	Unsupervised Learning
+
+8 -	Supervised Learning Problem
+
+9 -	Online Learning System is a method of learning where you don't use all the training data at once to train your model.
+	Instead you use mini-batchs where each batch is put for the model to train separately and incrementally.
+	And once you finished learning from the batch you can either discard the data or save for future rolebacks on the model.
+
+10-	Out-of-core learning is a situation in data training where due to a dataset too big for your memory you need to
+	use mini-batchs to train, for it to able to run on a specific machine or a cluster of machines.
+
+11-	Instance-based-learning
+
+12-	Parameters are the constants in which the model is based on, e.g. Linear Regression is a+bx
+	where "a" and "b" are the parameters
+	
+	Hyperparameters are used for regularization, which means it constrains or improve the generalization of the model.
+	Making it so that it might fit a better prediction on unseen data on the training model.
+
+13-	Model-based learning search a decision or mathematical model that best fits the data. The most common usage of such learning
+	is linear regression, where it's created a line function in the shape y = a0 + a1*x to fit that x and y of the data.
+	In the first place to make a prediction, the model has to train and be validated, if not validated pass through train again
+	with different parameters until validated, after you just use the model to a predict a y value from a x value.
+
+14-	1->Underfitting and overfitting
+	2->Dataset too small or insufficient quantity of training data.
+	3->Data that needs cleaning, or poor quality data
+	4->Dealing with features, choosing the right features, sometimes extract (a step in which you combine features to create a new one
+	that is more representative and simplified.
+
+15-	In this situation what is happening is called overfitting. Three ways you can deal with this are:
+	Select less parameters(instead of a polynomial use a linear model) or constrain the model, which is change the hyperparameters.
+	Gather more training data.
+	Reduce data set noise, removing outliers and/or fix data errors.
+
+16-	A test set is a subset of your full data which you don't use to train your model, but instead to validate it.
+	In this way you can simulate new data or unseen data into your model and see how well it performs.
+	A subset of 20% is often used as good rule of the thumb for the test, but if your dataset is too big, 1% might be 100 thousand
+	lines, which might be more than enough to get an idea of the generalization error.
+
+17-	A validation set is another subset you create to test your model, with the purpose of avoiding overfitting your model.
+	This way the model is trained until achieves good fit with validation set, than you train with both sets (train + validation)
+	with same parameters as before and check it's performance on test subset.
+
+18-	It's possible to overfit and not generalize well afterwards on unseen data.
+
+19-	Repeated cross-validation is a technique in which you take many subsets for validation, and train an unique model in each
+	of the subsets, when finished all the models are averaged-out. This technique is useful to support better generalization
+	on your model.
